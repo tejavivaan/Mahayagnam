@@ -25,3 +25,5 @@
    Used in: large enterprises, banks, telecom
    Examples: AIX, Solaris, HP‑UX
    Very stable but expensive and closed‑source
+
+** Linux Flavor: Ubuntu, Fedora, CentOS, Debian, RHEL, Arch Linux,  openSUSE, Linux Mint, Kali Linux.
