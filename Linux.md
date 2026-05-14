@@ -62,6 +62,9 @@
 ## What is Root ?
 - There are 3 types of root on linux system
 
-> **Root Account** - It is the administrator (super user) of the system. It can modify any file, install software, change settings, and override permissions.
+-  **Root Account** - It is the administrator (super user) of the system. It can modify any file, install software, change settings, and override permissions.
    -  You can become root using **sudo -i** or **su -** 
-> 
+- **Root Directory /** - The root directory is the top most directory of the linux file system.
+   - Represented by a single **/**.
+   - Every file and folder branches from **/**.
+- **Root home directory** - /root is the personal home folder of the root user.
