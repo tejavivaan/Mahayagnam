@@ -1,5 +1,5 @@
--- What is Operating System ?
-** An Operating system is a core software that manages the hardware and software on a computer. It acts as a bridge between user and machine.
+** What is Operating System ? **
+-- An Operating system is a core software that manages the hardware and software on a computer. It acts as a bridge between user and machine.
 
 -- Types of Operating systems 
    Desktop Operating system - Windows OS, Mac OS, Linux such as Ubuntu, fedora.
