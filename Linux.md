@@ -46,4 +46,5 @@
   |---          |---                                                                            |---                                                             |
   | Open Source | Anyone can inspect it, so vulnerabilities get found and fixed.                | Winndows is closed source, so only microsoft csn see the code. |
   | Permissions | Apps cannot modify system files unless the user explicitly grants root access.| Windows apps often run with high privileges.                   |
-  |Trusted Software sources | Linux uses secure repositories. | Windows relies on downloading .exe files from the internet. |        
+  |Trusted Software sources | Linux uses secure repositories. | Windows relies on downloading .exe files from the internet. |
+  |Lower malware target| No walware attackers | Attackers focus on windows because it dominates desktops.|      
