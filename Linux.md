@@ -12,12 +12,12 @@
 - Linux is Open source operating system based on Unix Architecture.
    It manages hardware runs applications and provides secure and stable environment for computing.
 
-  > Open‑source — anyone can modify or distribute it
-  > Secure — strong permissions and user control
-  > Stable — rarely crashes, ideal for servers
-  > Multi‑user — many users can work at once
-  > Multitasking — runs many processes simultaneously
-  > Portable — runs on phones, PCs, servers, routers, IoT
+   -  Open‑source — anyone can modify or distribute it
+   - Secure — strong permissions and user control
+   - Stable — rarely crashes, ideal for servers
+   - Multi‑user — many users can work at once
+   - Multitasking — runs many processes simultaneously
+   - Portable — runs on phones, PCs, servers, routers, IoT
 
 ## Unix was developed to create a simple, portable, multi user, multi tasking operating system that could run on different hardware and support research.
 
