@@ -58,3 +58,10 @@
 - **Lower RAM/CPU usage** - Linux can idle at 1GB RAM.
 - **Background Junk** - Linux runs only runs what you need.
 - **Better Multitasking** - Linux handles many processes more efficently.
+
+## What is Root ?
+- There are 3 types of root on linux system
+
+> **Root Account** - It is the administrator (super user) of the system. It can modify any file, install software, change settings, and override permissions.
+   -  You can become root using **sudo -i** or **su -** 
+> 
