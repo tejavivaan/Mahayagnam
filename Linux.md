@@ -40,6 +40,9 @@
   
 ## Linux Vs Windows
 ### Why Linux is more secure ?
-- Linux is built with security first desgin, while Windows is bild for mass market convenience. 
-  | Open Source |  Anyone can inspect it, so vulnerabilities get found and fixed. | Winndows is closed source, so only microsoft csn see the code. |
-  | Permissions |  Apps cannot modify system files unless the user explicitly grants root access. | Windows apps often run with high privileges |
+- Linux is built with security first desgin, while Windows is bild for mass market convenience.
+
+  | Name        | Linux                                                                         | Windows                                                        |
+  |---          |---                                                                            |---                                                             |
+  | Open Source | Anyone can inspect it, so vulnerabilities get found and fixed.                | Winndows is closed source, so only microsoft csn see the code. |
+  | Permissions | Apps cannot modify system files unless the user explicitly grants root access.| Windows apps often run with high privileges.                   |
