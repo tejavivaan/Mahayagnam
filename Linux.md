@@ -23,9 +23,17 @@
 - Unix was developed to create a simple, portable, multi user, multi tasking operating system that could run on different hardware and support research.
 
 - Unix is a proprietary, commercial operating system developed in the 1970s by AT&T Bell Labs.
-   Used in: large enterprises, banks, telecom
-   Examples: AIX, Solaris, HP‑UX
-   Very stable but expensive and closed‑source
+   - Used in: large enterprises, banks, telecom
+   - Examples: AIX, Solaris, HP‑UX
+   - Very stable but expensive and closed‑source
 
 ## Linux Flavor
-- Ubuntu, Fedora, CentOS, Debian, RHEL, Arch Linux,  openSUSE, Linux Mint, Kali Linux.
+- Ubuntu
+- Fedora
+- CentOS
+- Debian
+- RHEL
+- Arch Linux
+- openSUSE
+- Linux Mint
+- Kali Linux.
