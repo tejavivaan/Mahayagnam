@@ -68,3 +68,8 @@
    - Represented by a single **/**
    - Every file and folder branches from **/**
 - **Root home directory**  /root is the personal home folder of the root user.
+
+## How to change Password in Linux ?
+- Change Your own password - **passwd**
+- Change other user password - **sudo passwd username**
+- Change root password - **sudo passwd root** 
