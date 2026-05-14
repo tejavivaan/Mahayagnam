@@ -39,7 +39,7 @@
 - Kali Linux.
   
 ## Linux Vs Windows
-### Why Linux is more secure ?
+### Why Linux is more Secure ?
 - Linux is built with security first desgin, while Windows is bild for mass market convenience.
 
   | Name        | Linux                                                                         | Windows                                                        |
@@ -47,4 +47,14 @@
   | Open Source | Anyone can inspect it, so vulnerabilities get found and fixed.                | Winndows is closed source, so only microsoft csn see the code. |
   | Permissions | Apps cannot modify system files unless the user explicitly grants root access.| Windows apps often run with high privileges.                   |
   |Trusted Software sources | Linux uses secure repositories. | Windows relies on downloading .exe files from the internet. |
-  |Lower malware target| No walware attackers | Attackers focus on windows because it dominates desktops.|      
+  |Lower malware target| No walware attackers | Attackers focus on windows because it dominates desktops.|
+
+### Why Linux is more Stable ?
+- **No Forced Updates** -  Linux never interrupts you with sudden reboots.
+- **Lightweight** - No bloatware or heavy background services.
+- **Modular Desgin** - if one component fails, it doesn't crash the whole OS.
+
+### Why Linux Performs Better ?
+- **Lower RAM/CPU usage** - Linux can idle at 1GB RAM.
+- **Background Junk** - Linux runs only runs what you need.
+- **Better Multitasking** - Linux handles many processes more efficently.
