@@ -47,13 +47,13 @@
   - touch - creates an empty file.
   - cp - copy files.
 
-  ## Files and Directories Properties
+## Files and Directories Properties
   - Linux files and directories have properties that define  what they are, who owns them, and what actions users can perform on them. The most important properties are file type, permissions, ownership, timestamps, and special/extended attributes
 
 - ls -l is a Linux command that shows detailed information (Properties) about files and directories in a folder.
 - It gives you: File type, Permissions, Number of links, Owner, Group, Size, Last modified date, File name.
 - Example output of ls -l
-> -rwxr-xr--  1  root  admin   4096  Jan 12  10:30  script.sh
+- -rwxr-xr--  1  root  admin   4096  Jan 12  10:30  script.sh
 - Breakdown of each field
   1. File Types & Permissions *-rwxr-xr--*
    
@@ -82,5 +82,13 @@
    6. Last Modified Time (Jan 12 10:30)
       - Shows when the file was last changed. If the file is older than 6 months, the year is shown instead of time.
    7.  File Name (script.sh)  
-       -  The name of the file or directory. 
+       -  The name of the file or directory.
+
+## Types of Paths in Linux
+- Absolute Path
+   - A path that starts from the root / and shows the full location of a file.
+- Relative Path
+   - A path based on your current directory. Relative paths do NOT start with /
+
+
 
