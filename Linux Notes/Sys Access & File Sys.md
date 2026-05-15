@@ -72,15 +72,15 @@
          | Group |	r-x   |	read, execute      |
          | Others|   r--   |	read only          |
    2. Link Count (1)
-     - Shows how many hard links point to this file. For directories, this number is usually higher.
+      - Shows how many hard links point to this file. For directories, this number is usually higher.
    3. Owner (root)
-     - The user who owns the file.
+      - The user who owns the file.
    4. Group (admin)
-     - The group that owns the file.
+      - The group that owns the file.
    5. File Size (4096)
-     - Size in bytes.For directories, this is the size of directory metadata.
+      - Size in bytes.For directories, this is the size of directory metadata.
    6. Last Modified Time (Jan 12 10:30)
-     - Shows when the file was last changed. If the file is older than 6 months, the year is shown instead of time.
+      - Shows when the file was last changed. If the file is older than 6 months, the year is shown instead of time.
    7.  File Name (script.sh)  
-     - The name of the file or directory. 
+      - The name of the file or directory. 
 
