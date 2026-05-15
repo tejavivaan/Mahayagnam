@@ -104,6 +104,20 @@
    -  echo "Hello Linux" > hello.txt - Creates hello.txt and writes text inside it.
    -  echo "New line" >> hello.txt - Append text to hello.txt
 
+## Copying a Directory in Linux
+- To copy a directory, we use the cp command with the -r (recursive) option.
+- Basic Command to Copy a Directory.
+  - *cp -r source_directory destination_directory*
+  - *cp -r myfolder backup/* - This copies myfolder into the backup directory. 
+- Copy a Directory to Another Location.
+  - *cp -r /home/user/docs /home/user/Desktop/* -  This copies the docs folder to the Desktop.
+- Copy a Directory and Rename It.
+  - *cp -r project project_backup* - This creates a new directory named project_backup.
+- Copy Multiple Directories at Once.
+  - *cp -r dir1 dir2 dir3 /home/user/backup/* - All three directories go into backup.
+
+ 
+
 
 
 
