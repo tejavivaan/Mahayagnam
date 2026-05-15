@@ -14,38 +14,38 @@
 - Change root password - **sudo passwd root**
 
 ## If Terminal becomes unresponsive ?
-- *Ctrl + C* - Interrupts the current command.
-- *Ctrl + D* - Logs out / ends input.
-- *Ctrl + Z* - Suspends a running process.
+- ***Ctrl + C*** - Interrupts the current command.
+- ***Ctrl + D*** - Logs out / ends input.
+- ***Ctrl + Z*** - Suspends a running process.
 
 ## File System Structure and its Description 
 - In Linux, the file system follows a standardized hierarchical structure called the Filesystem Hierarchy Standard (FHS). Everything starts from the root directory /.
-  - / - Root directory — the top-level directory in Linux. Everything begins here.
-  - /boot - Contains file that is used by the boot loader(grub.cfg).
-  - /root - root user home directory.
-  - /dev - system devices files (disk, cdrom, speakers, keyboard).
-  - /etc - configuration files.
-  - /bin - Essential user commands like ls, cp, mv, cat.
-  - /sbin - System administration commands like fdisk, reboot, iptables.
-  - /opt - Optional third-party software packages.(not part of OS apps)
-  - /proc - Running processes.
-  - /lib - Essential shared libraries needed by system programs.
-  - /tmp - Temporary files created by programs.
-  - /home - Home directories for normal users.
-  - /var - system log files.
-  - /run - Runtime process information since system boot.
-  - /mnt - Temporary mount directory used manually by administrators.
-  - /media - Mount points for removable media like USB drives and CDs.
+  - ***/*** - Root directory — the top-level directory in Linux. Everything begins here.
+  - ***/boot*** - Contains file that is used by the boot loader(grub.cfg).
+  - ***/root*** - root user home directory.
+  - ***/dev*** - system devices files (disk, cdrom, speakers, keyboard).
+  - ***/etc*** - configuration files.
+  - ***/bin*** - Essential user commands like ls, cp, mv, cat.
+  - ***/sbin*** - System administration commands like fdisk, reboot, iptables.
+  - ***/opt*** - Optional third-party software packages.(not part of OS apps)
+  - ***/proc*** - Running processes.
+  - ***/lib*** - Essential shared libraries needed by system programs.
+  - ***/tmp*** - Temporary files created by programs.
+  - ***/home*** - Home directories for normal users.
+  - ***/var*** - system log files.
+  - ***/run*** - Runtime process information since system boot.
+  - ***/mnt*** - Temporary mount directory used manually by administrators.
+  - ***/media*** - Mount points for removable media like USB drives and CDs.
  
  ## File System Navigation Commands
-  - pwd - prints current working directory.
-  - ls - list the files in current directory.
-  - cd - changes your current directory.
-  - mkdir - creates a new directory.
-  - rmdir - removes empty directory.
-  - rm -r - removes directories and their contents recursively.
-  - touch - creates an empty file.
-  - cp - copy files.
+  - ***pwd*** - prints current working directory.
+  - ***ls*** - list the files in current directory.
+  - ***cd*** - changes your current directory.
+  - ***mkdir*** - creates a new directory.
+  - ***rmdir*** - removes empty directory.
+  - ***rm -r*** - removes directories and their contents recursively.
+  - ***touch*** - creates an empty file.
+  - ***cp*** - copy files.
 
 ## Files and Directories Properties
   - Linux files and directories have properties that define  what they are, who owns them, and what actions users can perform on them. The most important properties are file type, permissions, ownership, timestamps, and special/extended attributes
@@ -53,7 +53,7 @@
 - ls -l is a Linux command that shows detailed information (Properties) about files and directories in a folder.
 - It gives you: File type, Permissions, Number of links, Owner, Group, Size, Last modified date, File name.
 - Example output of ls -l
-- -rwxr-xr--  1  root  admin   4096  Jan 12  10:30  script.sh
+- ***-rwxr-xr--  1  root  admin   4096  Jan 12  10:30  script.sh***
 - Breakdown of each field
   1. File Types & Permissions *-rwxr-xr--*
    
@@ -92,29 +92,29 @@
  
 ## Creating Files and Directories in Linux
 - Linux gives you several commands to create files and folders. Each command has a different purpose.
-- *mkdir* — Make a new directory
-   - mkdir myfolder - Creates a folder named myfolder in the current location.
-   - mkdir folder1 folder2 folder3 - Create multiple folders
-   - mkdir -p projects/java/src - Create nested directories,-p creates parent directories automatically.
-- touch — Create an empty file
-   -  touch file1.txt - cretas file1.txt
-   -  touch a.txt b.txt c.txt - Create multiple files
-   -  touch report.log - Update timestamp of an existing file
-- echo — Create a file with content
-   -  echo "Hello Linux" > hello.txt - Creates hello.txt and writes text inside it.
-   -  echo "New line" >> hello.txt - Append text to hello.txt
+- **mkdir** — Make a new directory
+   - ***mkdir myfolder*** - Creates a folder named myfolder in the current location.
+   - ***mkdir folder1 folder2 folder3*** - Create multiple folders
+   - ***mkdir -p projects/java/src*** - Create nested directories,-p creates parent directories automatically.
+- **touch** — Create an empty file
+   -  ***touch file1.txt*** - cretas file1.txt
+   -  ***touch a.txt b.txt c.txt*** - Create multiple files
+   -  ***touch report.log*** - Update timestamp of an existing file
+- **echo** — Create a file with content
+   -  ***echo "Hello Linux" > hello.txt*** - Creates hello.txt and writes text inside it.
+   -  ***echo "New line" >> hello.txt*** - Append text to hello.txt
 
 ## Copying a Directory in Linux
 - To copy a directory, we use the cp command with the -r (recursive) option.
 - Basic Command to Copy a Directory.
-  - *cp -r source_directory destination_directory*
-  - *cp -r myfolder backup/* - This copies myfolder into the backup directory. 
+  - ***cp -r source_directory destination_directory***
+  - ***cp -r myfolder backup/*** - This copies myfolder into the backup directory. 
 - Copy a Directory to Another Location.
-  - *cp -r /home/user/docs /home/user/Desktop/* -  This copies the docs folder to the Desktop.
+  - ***cp -r /home/user/docs /home/user/Desktop/*** -  This copies the docs folder to the Desktop.
 - Copy a Directory and Rename It.
-  - *cp -r project project_backup* - This creates a new directory named project_backup.
+  - ***cp -r project project_backup*** - This creates a new directory named project_backup.
 - Copy Multiple Directories at Once.
-  - *cp -r dir1 dir2 dir3 /home/user/backup/* - All three directories go into backup.
+  - ***cp -r dir1 dir2 dir3 /home/user/backup/*** - All three directories go into backup.
 
  
 
