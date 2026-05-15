@@ -89,6 +89,26 @@
    - A path that starts from the root / and shows the full location of a file.
 - Relative Path
    - A path based on your current directory. Relative paths do NOT start with /
+ 
+## Creating Files and Directories in Linux
+- Linux gives you several commands to create files and folders. Each command has a different purpose.
+- *mkdir* — Make a new directory
+   - mkdir myfolder - Creates a folder named myfolder in the current location.
+   - mkdir folder1 folder2 folder3 - Create multiple folders
+   - mkdir -p projects/java/src - Create nested directories,-p creates parent directories automatically.
+- touch — Create an empty file
+   -  touch file1.txt - cretas file1.txt
+   -  touch a.txt b.txt c.txt - Create multiple files
+   -  touch report.log - Update timestamp of an existing file
+- echo — Create a file with content
+   -  echo "Hello Linux" > hello.txt - Creates hello.txt and writes text inside it.
+   -  echo "New line" >> hello.txt - Append text to hello.txt
+
+
+
+
+
+
 
 
 
