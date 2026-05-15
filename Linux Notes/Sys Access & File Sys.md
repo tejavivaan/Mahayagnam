@@ -46,3 +46,27 @@
   - rm -r - removes directories and their contents recursively.
   - touch - creates an empty file.
   - cp - copy files.
+
+  ## Files and Directories Properties
+  - Linux files and directories have properties that define  what they are, who owns them, and what actions users can perform on them. The most important properties are file type, permissions, ownership, timestamps, and special/extended attributes
+
+- ls -l is a Linux command that shows detailed information (Properties) about files and directories in a folder.
+- It gives you: File type, Permissions, Number of links, Owner, Group, Size, Last modified date, File name.
+- Example output of ls -l
+> -rwxr-xr--  1  root  admin   4096  Jan 12  10:30  script.sh
+- Breakdown of each field
+  1. File Types & Permissions *-rwxr-xr--*
+     a. File Type (1st character)
+        - - → regular file
+        - d → directory
+        - l → link
+        - c → character device
+        - b → block device
+     b. Permissions (next 9 characters)
+        - Split into 3 groups:
+          
+         | Who	| Example |	Meaning|
+          |---|---|---|
+         | Owner |	rwx	| read, write, execute|
+         | Group |	r-x |	read, execute|
+         | Others	| r-- |	read only|
