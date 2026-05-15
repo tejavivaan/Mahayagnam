@@ -82,5 +82,5 @@
    6. Last Modified Time (Jan 12 10:30)
       - Shows when the file was last changed. If the file is older than 6 months, the year is shown instead of time.
    7.  File Name (script.sh)  
-      - The name of the file or directory. 
+      -  The name of the file or directory. 
 
