@@ -62,11 +62,11 @@
         - l → link
         - c → character device
         - b → block device
-   b. Permissions (next 9 characters)
+     b. Permissions (next 9 characters)
         - Split into 3 groups:
           
-         | Who	  | Example |	Meaning|
-         |---    |---      |---|
+         | Who	  | Example |	Meaning            |
+         |---    |---      |---                  |
          | Owner |	rwx	| read, write, execute|
-         | Group |	r-x   |	read, execute|
-         | Others| r--     |	read only|
+         | Group |	r-x   |	read, execute      |
+         | Others|   r--   |	read only          |
