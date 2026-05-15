@@ -57,16 +57,16 @@
 - Breakdown of each field
   1. File Types & Permissions *-rwxr-xr--*
      a. File Type (1st character)
-        - - → regular file
+        - *-* → regular file
         - d → directory
         - l → link
         - c → character device
         - b → block device
-     b. Permissions (next 9 characters)
+   b. Permissions (next 9 characters)
         - Split into 3 groups:
           
-         | Who	| Example |	Meaning|
-          |---|---|---|
+         | Who	  | Example |	Meaning|
+         |---    |---      |---|
          | Owner |	rwx	| read, write, execute|
-         | Group |	r-x |	read, execute|
-         | Others	| r-- |	read only|
+         | Group |	r-x   |	read, execute|
+         | Others| r--     |	read only|
