@@ -123,7 +123,7 @@
      
 # Find command
 - The find command searches in real time by scanning directories.
-   - ***find <path> <condition>***
+   - ***find path condition***
 - Find a file by name
     - ***find / -name "filename.txt"***
 - Case Insensitive search
@@ -146,11 +146,11 @@
 - locate is much faster than find because it uses a pre‑built database.
 - install if missing - ***sudo apt install mlocate*** & ***sudo apt updatedb***
 - Search for a file
-  - locate notes.txt
+  - ***locate notes.txt***
 - Search by partial name
-    - locate doc
+    - ***locate doc***
 - Search for a directory
-     - locate /home/user/Documents
+     - ***locate /home/user/Documents***
   
  
 
