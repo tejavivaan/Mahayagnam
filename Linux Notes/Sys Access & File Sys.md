@@ -153,10 +153,14 @@
      - ***locate /home/user/Documents***
   
  
-
-
-
-
+## Wildcards
+- Wildcards are special symbols that help you match multiple files or patterns without typing full names.
+- They are used in commands like ls, cp, rm, mv, find, etc.
+    - * → “anything, any length”
+    - ? → “one unknown character”
+    - [abc] → “one of these”
+    - [1-9] → “one from this range”
+    - [!x] or [^x] → “anything except this”
 
 
 
