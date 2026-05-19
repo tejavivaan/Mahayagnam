@@ -116,6 +116,42 @@
 - Copy Multiple Directories at Once.
   - ***cp -r dir1 dir2 dir3 /home/user/backup/*** - All three directories go into backup.
 
+## Finding Files and Directories
+- Linux gives you powerful commands to search for files and directories anywhere in the system. The two most important tools are:
+   - find — searches by location
+   - locate — searches using a database (very fast)
+     
+# Find command
+- The find command searches in real time by scanning directories.
+   - ***find <path> <condition>***
+- Find a file by name
+    - ***find / -name "filename.txt"***
+- Case Insensitive search
+    - ***find / -iname "myfile.txt"***
+    - **-iname** ignores uppercase/lowercase
+- Find a Directory
+   -  ***find /home -type d -name "Documents"***
+   -  **-type d** → directory
+   -  **-type f** → file
+- Find by file extension
+   - ***find . -name "*.sh"***
+   - **.** → current directory
+   - **"*.sh"** → all shell scripts
+- Find files bigger than a size
+    - ***find / -size +100M***
+ - Find empty files or folders
+    - ***find . -empty***
+
+# Loacte command 
+- locate is much faster than find because it uses a pre‑built database.
+- install if missing - ***sudo apt install mlocate*** & ***sudo apt updatedb***
+- Search for a file
+  - locate notes.txt
+- Search by partial name
+    - locate doc
+- Search for a directory
+     - locate /home/user/Documents
+  
  
 
 
