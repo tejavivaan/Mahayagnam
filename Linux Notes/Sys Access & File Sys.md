@@ -121,7 +121,7 @@
    - find — searches by location
    - locate — searches using a database (very fast)
      
-# Find command
+### Find command
 - The find command searches in real time by scanning directories.
    - ***find path condition***
 - Find a file by name
@@ -142,7 +142,7 @@
  - Find empty files or folders
     - ***find . -empty***
 
-# Loacte command 
+### Loacte command 
 - locate is much faster than find because it uses a pre‑built database.
 - install if missing - ***sudo apt install mlocate*** & ***sudo apt updatedb***
 - Search for a file
