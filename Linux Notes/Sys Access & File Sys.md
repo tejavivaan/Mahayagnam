@@ -162,6 +162,15 @@
     - [1-9] → “one from this range”
     - [!x] or [^x] → “anything except this”
 
+## File Types in Linux
+- Regular file (-) — Text, images, programs, logs, etc.
+- Directory (d) — A folder containing files.
+- Symbolic link (l) — Shortcut pointing to another file.
+- Character device (c) — Hardware that sends data character by character (keyboard, mouse).
+- Block device (b) — Hardware that sends data in blocks (hard disks, USB drives).
+- Socket (s) — Used for inter‑process communication.
+- Named pipe (p) — Allows processes to communicate in a FIFO manner.
+
 
 
 
