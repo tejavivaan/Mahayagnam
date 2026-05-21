@@ -174,12 +174,14 @@
 ### Soft Link (Symbolic Link)
 - A soft link is like a shortcut or pointer to another file
 - It stores the path of the original file.
+- If the original file is deleted → link breaks
 - File type shown as	l
 - ***ln -s target linkname***
 
 ### Hard Link
 - A hard link is an additional name for the same file.
 - It points directly to the same data (inode) as the original file.
+- If the original file is deleted → data still exists via the link 
 - File type shown as	 -
 - ***ln target linkname***
 
